@@ -1,0 +1,11 @@
+database:
+  type: mysql
+  url: "root:123456@tcp(localhost:3306)/rent?charset=utf8"  
+  maxIdle: 5
+  maxActive: 20
+  showsql: false
+
+price:
+  water: 5
+  electric: 1
+  gas: 3.5
