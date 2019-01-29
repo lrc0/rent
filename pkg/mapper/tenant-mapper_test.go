@@ -10,9 +10,9 @@ import (
 func TestAddTenant(t *testing.T) {
 	tenant := &types.Tenant{
 		RoomName:    "二楼前",
-		Name:        "李蕊材",
-		IDNumber:    "510703198907173115",
-		PhoneNumber: "18081213028",
+		Name:        "lll",
+		IDNumber:    "510xxxx5",
+		PhoneNumber: "180121212121",
 		MonthlyRent: 260,
 		LeasePeriod: 3,
 		DateFrom:    "2018-01-02",

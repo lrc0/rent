@@ -9,9 +9,9 @@ import (
 
 func TestAddHouseInfo(t *testing.T) {
 	house := &types.HouseInfo{
-		Name:      "李蕊材",
-		Phone:     18081213028,
-		Address:   "四川省绵阳市高新区普明后街五组29号",
+		Name:      "lll",
+		Phone:     180123123123,
+		Address:   "四川",
 		FreeRoom:  3,
 		TotalRoom: 10,
 	}
