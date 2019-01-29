@@ -31,6 +31,10 @@ func connect() {
 	engine.SetMaxIdleConns(mysql.Database.MaxIdle)
 	engine.SetMaxOpenConns(mysql.Database.MaxActive)
 	engine.TZLocation, _ = time.LoadLocation("Asia/Shanghai")
+	// if err != nil {
+	// 	log.Error(err)
+	// 	return
+	// }
 	tbMapper := core.NewPrefixMapper(core.SnakeMapper{}, "rent_")
 	engine.SetTableMapper(tbMapper)
 	engine.ShowSQL(mysql.Database.ShowSQL)
